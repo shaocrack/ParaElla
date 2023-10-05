@@ -25,6 +25,20 @@
       text-align: inherit; /* Centrar texto dentro del contenedor */
       padding: 20px; /* Espacio interno del contenedor */
     }
+    #regresarBtn {
+        background-color: #FF5733; /* Color de fondo del botón */
+        color: white; /* Color del texto */
+        padding: 10px 20px; /* Espaciado interno */
+        font-size: 18px; /* Tamaño de fuente */
+        border: none; /* Quita el borde del botón */
+        border-radius: 5px; /* Bordes redondeados */
+        cursor: pointer; /* Cambia el cursor al pasar por encima */
+        transition: background-color 0.3s ease; /* Transición de color de fondo al pasar el cursor */
+      }
+
+      #regresarBtn:hover {
+        background-color: #FF784E; /* Cambia el color de fondo al pasar el cursor */
+      }
 
     h1 {
       font-size: 4vw; /* Tamaño de fuente en unidades vw (viewport width) */
@@ -91,7 +105,7 @@
   <script>
     // Muestra una alerta al cargar la página
     window.onload = function() {
-      alert("Se ha detectado exceso de belleza.");
+      alert("Se ha detectado AL AMOR DE MI VIDA.");
       // Después de 5 segundos, muestra el botón
       setTimeout(function() {
         var regresarBtn = document.getElementById("regresarBtn");
